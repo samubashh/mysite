@@ -1,0 +1,57 @@
+h1 {
+  font-family: nasalization;
+  color: #932ef2;
+  text-align: center;
+  margin-top: -20px;
+}
+h1:before {
+  content: " I'am ";
+  color: white;
+}
+
+h3 {
+  color: #975dcd;
+  font-family: nasalization;
+  text-align: center;
+}
+h4 {
+  font-family: "poppins-medium", sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+}
+button {
+  display: inline;
+  padding: 10px 20px;
+  font-family: "poppins-medium", sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: transparent;
+  border: 3px solid;
+}
+.btn-need-website {
+  transition: all 0.5s ease-in-out;
+  margin-right: 3px;
+}
+.btn-readmore {
+  transition: all 0.5s ease-in-out;
+  margin-left: 3px;
+}
+.btn-need-website:hover {
+  border-color: #932ef2;
+  color: #932ef2;
+  box-shadow: 0px 14px 100px 8px #932ef2;
+}
+.btn-readmore:hover {
+  border-color: #975dcd;
+  color: #975dcd;
+  box-shadow: 0px 14px 100px 8px #975dcd;
+}
+.icon {
+  margin-top: 40px;
+  width: 50px;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
